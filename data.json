@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "id": 1775676015822,
+      "name": "Fariz",
+      "email": "farizahmad112005@gmail.com",
+      "password": "$2b$10$fM.kWzCXioHNHvQNDy4viuu3oG/lG820/e7b3Yw6AaGRHPTDWlhBO"
+    },
+    {
+      "id": 1776616167433,
+      "name": "Fariz",
+      "email": "fariz@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "The Grand Deluxe",
+      "price": 18.99,
+      "description": "Wagyu beef, truffle aioli, gold-dusted brioche.",
+      "category": "Burger",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+    },
+    {
+      "id": 2,
+      "name": "Truffle Fire",
+      "price": 15.49,
+      "description": "Spicy wagyu with habanero-infused truffle sauce.",
+      "category": "Burger",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349"
+    },
+    {
+      "id": 3,
+      "name": "Gold Leaf Fries",
+      "price": 9.99,
+      "description": "Twice-fried potatoes dusted in 24k gold leaf.",
+      "category": "Sides",
+      "image": "https://images.unsplash.com/photo-1630384066252-4237cc737f28"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-YW4YVYRKB",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Grand Deluxe",
+          "price": 18.99,
+          "description": "Wagyu beef, truffle aioli, gold-dusted brioche.",
+          "category": "Burger",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+          "quantity": 1
+        }
+      ],
+      "total": 24.979999999999997,
+      "customer": {
+        "address": "",
+        "city": "",
+        "zip": "",
+        "name": "Fariz",
+        "email": "farizahmad112005@gmail.com"
+      },
+      "status": "Confirmed",
+      "timestamp": "2026-04-08T19:20:29.767Z"
+    },
+    {
+      "id": "ORD-E2W9PYS58",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Grand Deluxe",
+          "price": 18.99,
+          "description": "Wagyu beef, truffle aioli, gold-dusted brioche.",
+          "category": "Burger",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+          "quantity": 1
+        }
+      ],
+      "total": 24.979999999999997,
+      "customer": {
+        "address": "",
+        "city": "",
+        "zip": ""
+      },
+      "status": "Confirmed",
+      "timestamp": "2026-04-08T19:21:32.699Z"
+    },
+    {
+      "id": "ORD-NEJYHYEJQ",
+      "items": [
+        {
+          "id": 1,
+          "name": "The Grand Deluxe",
+          "price": 18.99,
+          "description": "Wagyu beef, truffle aioli, gold-dusted brioche.",
+          "category": "Burger",
+          "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+          "quantity": 1
+        }
+      ],
+      "total": 24.979999999999997,
+      "customer": {
+        "address": "poipi",
+        "city": "hk",
+        "zip": "kokoi"
+      },
+      "status": "Confirmed",
+      "timestamp": "2026-04-10T18:54:25.899Z"
+    },
+    {
+      "id": "ORD-JXC9RQPAG",
+      "items": [
+        {
+          "id": 2,
+          "name": "Truffle Fire",
+          "price": 15.49,
+          "description": "Spicy wagyu with habanero-infused truffle sauce.",
+          "category": "Burger",
+          "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+          "quantity": 1
+        }
+      ],
+      "total": 21.48,
+      "customer": {
+        "address": "",
+        "city": "",
+        "zip": ""
+      },
+      "status": "Confirmed",
+      "timestamp": "2026-04-11T17:35:00.608Z"
+    }
+  ]
+}
